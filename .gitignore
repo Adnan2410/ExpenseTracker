@@ -1,0 +1,17 @@
+# Ignore heavy dependencies in all subfolders
+**/node_modules/
+
+# Ignore local environment variables (Secrets)
+backend/.env
+frontend/expense-tracker/.env
+
+# Ignore Excel files I see in your backend (data privacy)
+backend/*.xlsx
+
+# Ignore build outputs
+**/dist/
+**/build/
+
+# System files
+.DS_Store
+Thumbs.db

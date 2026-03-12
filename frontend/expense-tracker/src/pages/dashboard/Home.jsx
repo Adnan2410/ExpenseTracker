@@ -3,7 +3,7 @@ import DashBoardLayout from '../../components/layouts/DashBoardLayout'
 import { useUserAuth } from '../../hooks/useUserAuth';
 import { useNavigate } from 'react-router-dom';
 import { API_PATHS } from '../../utils/apiPaths';
-import axiosInstance from '../../utils/axiosinstance';
+import axiosInstance from '../../utils/axiosInstance';
 import InfoCard from '../../components/Cards/InfoCard';
 import { LuHandCoins, LuWalletMinimal } from 'react-icons/lu';
 import { IoMdCard } from "react-icons/io"

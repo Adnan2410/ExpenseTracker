@@ -1,6 +1,6 @@
 import React from 'react'
 import { API_PATHS } from '../../utils/apiPaths';
-import axiosInstance from '../../utils/axiosinstance';
+import axiosInstance from '../../utils/axiosInstance';
 import { useUserAuth } from '../../hooks/useUserAuth';
 import DashBoardLayout from '../../components/layouts/DashBoardLayout';
 import toast from 'react-hot-toast';

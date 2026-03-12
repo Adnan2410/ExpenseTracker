@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
 import DashBoardLayout from "../../components/layouts/DashBoardLayout";
-import IncomeOverview from "../../components/Income/IncomeOverView";
-import axiosInstance from "../../utils/axiosinstance";
+import IncomeOverview from "../../components/Income/IncomeOverview";
+import axiosInstance from "../../utils/axiosInstance";
 import { API_PATHS } from "../../utils/apiPaths";
 import { UserContext } from "../../context/userContext";
 import Modal from "../../components/Modal";
